@@ -64,10 +64,6 @@ def main():
                 elif event.key == pygame.K_RIGHT:
                     head_pos[0] += cell
                     change_direction(head_pos)
-                    for i in range(10):
-                        time.sleep(0.5)
-                        head_pos[0] += cell
-                        change_direction(head_pos)
                 elif event.key == pygame.K_UP:
                     head_pos[1] -= cell
                     change_direction(head_pos)
