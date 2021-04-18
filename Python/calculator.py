@@ -36,10 +36,12 @@ def ground():
     button4_2.place(x=100,y=365,width=100,height=100)
     button4_3=tk.Button(text="1",bg='#666',bd=5,command=lambda:push('1'),font=('楷体',30))
     button4_3.place(x=200,y=365,width=100,height=100)
+    button4_3=tk.Button(text="0",bg='#666',bd=5,command=lambda:push('0'),font=('楷体',30))
+    button4_3.place(x=300,y=165,width=100,height=100)
     button4_4=tk.Button(text="C",bg='#666',bd=5,command=lambda:push('C'),font=('楷体',30))
-    button4_4.place(x=300,y=165,width=100,height=150)
+    button4_4.place(x=300,y=265,width=100,height=100)
     button4_4=tk.Button(text="=",bg='#666',bd=5,command=lambda:push('='),font=('楷体',30))
-    button4_4.place(x=300,y=315,width=100,height=150)
+    button4_4.place(x=300,y=365,width=100,height=100)
     root.mainloop()
 def push(m):
     global keydown
