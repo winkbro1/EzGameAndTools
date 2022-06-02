@@ -1,2 +1,2 @@
-# Ezgame
-games
+# EzGameAndTools
+something no use
